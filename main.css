@@ -1,0 +1,68 @@
+body {
+    font-family: "Microsoft YaHei", 微软雅黑, Arial, Helvetica, sans-serif, "宋体";
+    font-size: 20px;
+}
+
+.screen {
+    width: 90%;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.mask {
+    border: 1px solid #ddd;
+    height: 99%;
+}
+
+input {
+    display: inline-block;
+}
+
+.pre_content {
+    margin: 0 auto;
+    display: block;
+    width: 40%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 3px;
+    color: #000;
+}
+
+.button input {
+    text-align: center;
+    padding: 5px 70px;
+    border-radius: 3px;
+    margin: 0 10px;
+    background: #fff;
+}
+
+input::-moz-placeholder {
+    color: #A9A9A9;
+}
+
+:-ms-input-placeholder {
+    color: #A9A9A9;
+}
+
+.button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.send {
+    border: 1px solid rgb(230, 80, 0);
+    color: rgb(230, 80, 0);
+}
+
+.reset {
+    border: 1px solid #aaa;
+    color: #000;
+}
+
+.text {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
