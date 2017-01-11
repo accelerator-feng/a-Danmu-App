@@ -30,13 +30,11 @@ $(function() {
             10000,
             function() { $text.remove(); });
     }
-    ref.child('message').on('child_added', function(snapshot) {
-        var text = snapshot.val();
-        send(text);
+    ref.child('message').on('child_added', function(arg) { 
+        send(arg.val());
     });
     $send.click(function() {
-        var text = $pre_content.val();
-        ref.child('message').push(text);
+        ref.child('message').push($pre_content.val());
         $pre_content.val("");
     });
     $reset.click(function() {
