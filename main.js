@@ -22,7 +22,7 @@ $(function() {
         var color = "rgb(" + colorRandom() + ")";
         var top = topRandom() + "px";
         var length = "-" + text.length * 12 + "px";
-        $text.css({ "top": top, "color": color, "right": length });
+        $text.css({ "top": top, "color": color, "right": length }); 
         $(".content").append($text);
         $text.animate({
                 right: "1800px"
