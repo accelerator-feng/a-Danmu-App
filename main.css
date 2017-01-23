@@ -60,7 +60,7 @@ input::-moz-placeholder {
     border: 1px solid #aaa;
     color: #000;
     position: relative;
-    right: 2px;
+    right: 3px;
 }
 
 .text {
