@@ -10,7 +10,7 @@ $(function() {
         $pre_content = $(".pre_content");
 
     function topRandom() {
-        return Math.random() * 360 - 15;
+        return Math.random() * 360 - 15; 
     }
 
     function colorRandom() {
@@ -40,6 +40,6 @@ $(function() {
     $reset.click(function() {
         $("p").remove();
         ref.remove();
-    });
+    }); 
     $reset.click();
 });

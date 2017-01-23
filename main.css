@@ -1,5 +1,5 @@
 body {
-    font-family: "Microsoft YaHei", 微软雅黑, Arial, Helvetica, sans-serif, "宋体";
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
@@ -34,7 +34,7 @@ input {
     text-align: center;
     padding: 5px 70px;
     border-radius: 3px;
-    margin: 0 10px;
+    margin: 10px 10px;
     background: #fff;
 }
 
