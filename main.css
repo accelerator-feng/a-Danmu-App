@@ -6,7 +6,7 @@ body {
 .screen {
     width: 90%;
     height: 400px;
-    margin: 20px auto;
+    margin: 20px auto 10px;
     position: relative;
     overflow: hidden;
 }
@@ -32,10 +32,10 @@ input {
 
 .button input {
     text-align: center;
-    padding: 5px 70px;
     border-radius: 3px;
-    margin: 10px 10px;
     background: #fff;
+    padding: 5px 70px;
+    margin: 5px 10px 0;
 }
 
 input::-moz-placeholder {
@@ -48,7 +48,7 @@ input::-moz-placeholder {
 
 .button {
     text-align: center;
-    margin: 20px 0;
+    
 }
 
 .send {
